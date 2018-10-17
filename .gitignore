@@ -1,0 +1,10 @@
+# Compiled Source #
+###################
+*.pyc
+
+# Runtime-generated Files #
+############################
+*.jpg
+*.jpeg
+*.png
+*.txt
