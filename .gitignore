@@ -4,7 +4,7 @@
 
 # Runtime-generated Files #
 ############################
-*.jpg
-*.jpeg
-*.png
-*.txt
+/ColorPenReader/rawImages/*.jpg
+/ColorPenReader/rawImages/*.jpeg
+/ColorPenReader/*.png
+/ColorPenReader/*.txt
