@@ -1,10 +1,10 @@
 # Compiled Source #
 ###################
-*.pyc
+./ColorPenReader/__pycache__/*
 
 # Runtime-generated Files #
 ############################
-/ColorPenReader/rawImages/*.jpg
-/ColorPenReader/rawImages/*.jpeg
-/ColorPenReader/*.png
-/ColorPenReader/*.txt
+./ColorPenReader/rawImages/*.jpg
+./ColorPenReader/rawImages/*.jpeg
+./ColorPenReader/*.png
+./ColorPenReader/*.txt
