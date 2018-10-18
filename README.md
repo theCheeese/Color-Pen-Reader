@@ -1,11 +1,15 @@
 # Color-Pen-Reader
-An open-source pen reader for dyslexic and visually impaired people that is able to read text written in any color on any colored background
+This is an open-source pen reader for dyslexic and visually impaired people that is able to read text written in any color on any colored background, started at NYIT for 2018's Senior Design course.
+
+# Setup
 
 To set this project up, you will have to buy all the parts listed, assemble everything together and make all the right physical connections according to the docs listed in the Final Senior Design Proposal pdf in the Proposals folder.
 
 The software setup is done by first expanding the Raspi filesystem in raspi-config, then removing any extraneous programs the stock Raspi came with like Libreoffice and Wolfram Alpha, and then running the setup script in the ColorPenReader folder. If you have around 5-6 GB free on the SD card though, you can just run the setup script as is and not worry about storage space. The setup script installs all the required dependencies, tesseract-ocr, festival, virtualenv, pip, modifies the .profile file to accomodate the changes, and compiles OpenCV 3.4.1 on the Raspi.
 
 If the setup script encounters issues with compiling OpenCV, refer to https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/ for a tutorial on how to compile OpenCV by hand.
+
+# Use
 
 Once the setup is complete, you should be able to run the Color Pen Reader (assuming the hardware is set up properly too) by running the startup script. This script executes source ~/.profile, starts the cv Python virtual environment, and runs the main loop of the Color Pen Reader.
 
